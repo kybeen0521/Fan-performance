@@ -36,21 +36,17 @@ During each test:
 The guide vane angle is changed incrementally (e.g., 19°)
 
 Measurements are taken for:
-
-Air volume (m³/min)
-
-Total pressure (mmAq)
-
-Shaft power (kW)
-
-The fan efficiency is then computed using:
+- Air volume (m³/min)
+- Total pressure (mmAq)
+- Shaft power (kW)
+- The fan efficiency is then computed using:
 
 𝜂=((𝑄×Δ𝑃total)/Pshaft)x100
 
 where
-Q = air flow rate (m³/s)
-Δ𝑃𝑡𝑜𝑡𝑎𝑙 = total pressure rise (Pa)
-Pshaft = shaft power input (W)
+- Q = air flow rate (m³/s)
+- Δ𝑃𝑡𝑜𝑡𝑎𝑙 = total pressure rise (Pa)
+- Pshaft = shaft power input (W)
 
 ---
 
