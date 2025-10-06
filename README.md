@@ -52,3 +52,43 @@ where
 
 🧰 Code Description
 Script: igv_efficiency_curve.py
+```
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Experimental Data (Example: IGV = 30°)
+Q_m3_min = np.array([0, 945.9, 1337.0, 1829.3, 2110.7, 2449.6, 2664.7, 2746.4])
+P_total_mmAq = np.array([127.1, 103.4, 94.2, 81.6, 69.0, 48.6, 34.7, 33.4])
+P_shaft_kW = np.array([36.3, 35.7, 35.9, 36.2, 33.9, 30.3, 27.9, 27.8])
+
+# Unit Conversion
+Q_m3_s = Q_m3_min / 60
+P_total_Pa = P_total_mmAq * 9.80665
+P_shaft_W = P_shaft_kW * 1000
+
+# Efficiency Calculation
+eta = (Q_m3_s * P_total_Pa / P_shaft_W) * 100
+
+# Display Results
+df = pd.DataFrame({
+    "Air Volume (m³/min)": Q_m3_min,
+    "Total Pressure (mmAq)": P_total_mmAq,
+    "Shaft Power (kW)": P_shaft_kW,
+    "Efficiency (%)": np.round(eta, 2)
+})
+print(df)
+
+# Plot Efficiency Curve
+plt.figure(figsize=(7,4))
+plt.plot(Q_m3_min, eta, 'o-', color='darkorange', lw=2, label='Computed Efficiency')
+plt.xlabel("Air Volume (m³/min)")
+plt.ylabel("Efficiency (%)")
+plt.title("Fan Total Efficiency Curve (IGV Angle = 30°)")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+```
+
