@@ -25,7 +25,7 @@ Easy-to-extend structure for other experimental data (e.g., RPM variation, press
 
 ---
 
-🧮 Experimental Background
+## 🧮 Experimental Background
 
 In fluid machinery laboratories, performance tests are conducted by adjusting the inlet guide vane (IGV)
 to control the flow direction and air volume entering the impeller.
