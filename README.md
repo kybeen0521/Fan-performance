@@ -116,7 +116,7 @@ output/
 
 ## 👤 Author
 
-Yongbeen Kim (김용빈)
+Yongbeen Kim
 
 Intelligent Mechatronics Research Center, KETI
 
