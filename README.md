@@ -50,7 +50,7 @@ where
 
 ---
 
-🧰 Code Description
+## 🧰 Code Description
 Script: igv_efficiency_curve.py
 ```
 import numpy as np
@@ -92,3 +92,32 @@ plt.show()
 
 ```
 
+---
+
+## 📂 Project Directory
+```
+data/
+├─ igv_angle_19.csv
+
+
+src/
+└─ igv_efficiency_curve.py
+
+output/
+├─ plots/
+│  ├─ efficiency_curve_igv30.png
+│  ├─ efficiency_comparison.png
+└─ logs/
+   └─ igv_experiment_log.txt
+
+```
+
+---
+
+## 👤 Author
+
+Yongbeen Kim (김용빈)
+Intelligent Mechatronics Research Center, KETI
+📧 Email: ybin521@keti.re.kr
+
+📅 Last updated: 2025.10.06
