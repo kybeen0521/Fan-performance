@@ -117,7 +117,9 @@ output/
 ## 👤 Author
 
 Yongbeen Kim (김용빈)
+
 Intelligent Mechatronics Research Center, KETI
+
 📧 Email: ybin521@keti.re.kr
 
 📅 Last updated: 2025.10.06
