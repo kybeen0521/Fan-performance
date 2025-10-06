@@ -1,5 +1,6 @@
 # Inlet Guide Vane (IGV) Performance Evaluation in Fluid Machinery
 
+---
 
 ## 🌀 Overview
 
@@ -12,6 +13,7 @@ total pressure rise, and air flow characteristics through data-driven analysis.
 The workflow allows calculation of efficiency curves and visualization of fan performance
 based on experimental data collected at different vane angles.
 
+---
 
 ## ⚙️ Features
 
@@ -21,6 +23,7 @@ Visualization of efficiency vs. flowrate (Q) curves
 Comparison between multiple IGV angles
 Easy-to-extend structure for other experimental data (e.g., RPM variation, pressure, etc.)
 
+---
 
 🧮 Experimental Background
 
@@ -42,67 +45,14 @@ Shaft power (kW)
 
 The fan efficiency is then computed using:
 
-𝜂
-=
-𝑄
-×
-Δ
-𝑃
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-𝑃
-𝑠
-ℎ
-𝑎
-𝑓
-𝑡
-×
-100
-η=
-P
-shaft
-	​
-
-Q×ΔP
-total
-	​
-
-	​
-
-×100
+𝜂=((𝑄×Δ𝑃total)/Pshaft)x100
 
 where
-
-𝑄
 Q = air flow rate (m³/s)
+Δ𝑃𝑡𝑜𝑡𝑎𝑙 = total pressure rise (Pa)
+Pshaft = shaft power input (W)
 
-Δ
-𝑃
-𝑡
-𝑜
-𝑡
-𝑎
-𝑙
-ΔP
-total
-	​
-
- = total pressure rise (Pa)
-
-𝑃
-𝑠
-ℎ
-𝑎
-𝑓
-𝑡
-P
-shaft
-	​
-
- = shaft power input (W)
+---
 
 🧰 Code Description
 Script: igv_efficiency_curve.py
