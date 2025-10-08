@@ -4,7 +4,7 @@
 
 ## 🌀 Overview
 
-This repository contains Python scripts for analyzing the performance variation of a centrifugal fan
+This repository contains Python scripts for analyzing the performance variation of a fan
 by adjusting the Inlet Guide Vane (IGV) angle during experiment.
 
 The project focuses on understanding how IGV angle affects fan efficiency,
