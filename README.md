@@ -4,13 +4,13 @@
 
 ## 🌀 Overview
 
-This repository contains Python scripts for analyzing the performance variation of a fan
+- This repository contains Python scripts for analyzing the performance variation of a fan
 by adjusting the Inlet Guide Vane (IGV) angle during experiment.
 
-The project focuses on understanding how IGV angle affects fan efficiency,
+- The project focuses on understanding how IGV angle affects fan efficiency,
 total pressure rise, and air flow characteristics through data-driven analysis.
 
-The workflow allows calculation of efficiency curves and visualization of fan performance
+- The workflow allows calculation of efficiency curves and visualization of fan performance
 based on experimental data collected at different vane angles.
 
 ---
