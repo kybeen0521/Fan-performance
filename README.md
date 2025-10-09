@@ -41,7 +41,7 @@ Measurements are taken for:
 - Shaft power (kW)
 - The fan efficiency is then computed using:
 
-𝜂=((𝑄×Δ𝑃total)/Pshaft)x100
+𝜂=((𝑄×Δ𝑃total)/Pshaft)x100 (%)
 
 where
 - Q = air flow rate (m³/s)
