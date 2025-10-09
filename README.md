@@ -44,9 +44,9 @@ Measurements are taken for:
 - 𝜂=((𝑄×Δ𝑃total)/Pshaft)x100 (%)
 
 where
-- Q = air flow rate (m³/s)
+(- Q = air flow rate (m³/s)
 - Δ𝑃𝑡𝑜𝑡𝑎𝑙 = total pressure rise (Pa)
-- Pshaft = shaft power input (W)
+- Pshaft = shaft power input (W))
 
 ---
 
