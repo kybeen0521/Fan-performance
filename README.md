@@ -67,7 +67,7 @@ if not file_path:
     raise SystemExit("❌ 파일이 선택되지 않았습니다.")
 
 # ------------------------------
-# CSV 파일 읽기 (Result 부분만)
+# CSV 파일 읽기 (Result)
 # ------------------------------
 with open(file_path, 'r', encoding='utf-8') as f:
     lines = f.readlines()
