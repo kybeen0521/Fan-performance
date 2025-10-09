@@ -33,7 +33,7 @@ This directly influences the static pressure, dynamic pressure, and overall fan 
 
 During each test:
 
-The guide vane angle is changed incrementally (e.g., 19°)
+The guide vane angle is changed incrementally (e.g., 19°,,,)
 
 Measurements are taken for:
 - Air volume (m³/min)
