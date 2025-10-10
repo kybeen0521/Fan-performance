@@ -39,7 +39,7 @@ Measurements are taken for:
 - Air volume (m³/min)
 - Total pressure (mmAq)
 - Shaft power (kW)
-- The fan efficiency is then computed using:
+ The fan efficiency is then computed using:
 
 - 𝜂=((𝑄×Δ𝑃total)/Pshaft)x100 (%)
 
