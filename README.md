@@ -17,7 +17,7 @@ based on experimental data collected at different vane angles.
 
 ## ⚙️ Features
 
-- Fan performance computation based on experimental data
+- Fan performance computation based on experimental data (csv)
 - Automatic efficiency calculation using total pressure and shaft power
 - Visualization of efficiency vs. flowrate (Q) curves
 - Comparison between multiple IGV angles
