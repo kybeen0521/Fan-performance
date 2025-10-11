@@ -168,4 +168,4 @@ Intelligent Mechatronics Research Center, KETI
 
 📧 Email: ybin521@keti.re.kr
 
-📅 Last updated: 2025.10.11
+📅 Last updated: 2025.10.12
